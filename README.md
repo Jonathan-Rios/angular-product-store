@@ -1,27 +1,113 @@
-# ProductStore
+<h1 align="center">NLW Unite - React</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+<p align="center">
+  <img 
+    src="https://img.shields.io/badge/React-18.2.0-blue" 
+    alt="React Ver. 18.2.0"
+  />
+  <img 
+    src="https://img.shields.io/badge/Typescript-5.2.2-blue"
+    alt="Typescript Ver. 5.2.2" 
+  />
+  <img 
+    alt="License"
+    src="https://img.shields.io/static/v1?label=license&message=MIT&color=E51C44&labelColor=0A1033"
+  />
+</p>
 
-## Development server
+<div align="center">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  ![Last commit](https://img.shields.io/github/last-commit/Jonathan-Rios/nlw-unite-react?color=4DA1CD 'Last commit') &nbsp;
+  ![Repo size](https://img.shields.io/github/repo-size/Jonathan-Rios/nlw-unite-react?color=4DA1CD 'Repo size') &nbsp;
+  ![Languages](https://img.shields.io/github/languages/count/Jonathan-Rios/nlw-unite-react?color=4DA1CD 'Languages') &nbsp;
+  
+</div>
 
-## Code scaffolding
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h3 align="center">Imagem prévia da aplicação</h3>
+ 
+<div align="center">
+  <img src=".github/project-preview.png?style=flat" alt="Cover" />
+</div>
 
-## Build
+<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 Projeto
+A aplicação foi desenvolvida seguindo as solicitações do teste técnico da empresa casar.com contidas neste [documento](./CHALLENGE_README.md).
 
-## Running unit tests
+Resumo da aplicação: Aplicação que permite buscar um usuário e seus repositórios na API do GitHub, listá-los e permitir adicionar/remover aos favoritos da aplicação os repositórios que deseja.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🧪 Tecnologias
 
-## Running end-to-end tests
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [ViteJs](https://vitejs.dev/)
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind](https://tailwindcss.com/)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## 🔗 Link do projeto
+Se quiser ver o projeto no ar, clique [aqui](https://nlw-unite-react.vercel.app/).
+
+
+## 🚀 Como executar
+Clone o projeto e acesse a pasta do mesmo.
+
+```bash
+$ git clone https://github.com/Jonathan-Rios/nlw-unite-react.git
+
+$ cd nlw-unite-react
+```
+
+Rode o projeto com os comandos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ npm run dev
+```
+- Aparecerá no terminal o link de acesso da aplicação, geralmente na porta http://localhost:5173/.
+
+## 📝 License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
+
+<br />
+
+## 📓 Anotações pessoais
+
+<h3>Criando o projeto e suas dependências </h3>
+
+```
+  # Após Instalado o Angular CLI [npm i -g @angular/cli@latest]
+  ➜ ng new product-store --skip-tests
+    ? Which stylesheet format would you like to use? Sass (SCSS) [ https://sass-lang.com/documentation/syntax#scss ]
+    ? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
+  
+  ➜ ng add @angular/material
+    ? Choose a prebuilt theme name, or "custom" for a custom theme: [Azure/Blue]      
+    ? Set up global Angular Material typography styles? [Yes]
+    ? Include the Angular animations module? [Include and enable animations]
+
+  # Criando componente com a CLI
+  ➜ ng g c shared/components/header
+```   
+<br />
+
+
+---
+<br />
+
+<a href="https://github.com/Jonathan-Rios">
+ <img src="https://github.com/Jonathan-Rios.png" width="100px;" alt="" />
+ <br />
+ <sub><b>Jonathan Rios Sousa</b></sub></a>
+
+💠 NeverStopLearning 💠
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jonathan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathan-rios-sousa-19b3431b6/)](https://www.linkedin.com/in/jonathan-rios-sousa-19b3431b6/) 
+[![Gmail Badge](https://img.shields.io/badge/-jonathan.riosousa@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jonathan.riosousa@gmail.com)](mailto:jonathan.riosousa@gmail.com)
