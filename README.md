@@ -17,10 +17,10 @@
 
 <div align="center">
 
-  ![Last commit](https://img.shields.io/github/last-commit/Jonathan-Rios/nlw-unite-react?color=4DA1CD 'Last commit') &nbsp;
-  ![Repo size](https://img.shields.io/github/repo-size/Jonathan-Rios/nlw-unite-react?color=4DA1CD 'Repo size') &nbsp;
-  ![Languages](https://img.shields.io/github/languages/count/Jonathan-Rios/nlw-unite-react?color=4DA1CD 'Languages') &nbsp;
-  
+![Last commit](https://img.shields.io/github/last-commit/Jonathan-Rios/nlw-unite-react?color=4DA1CD "Last commit") &nbsp;
+![Repo size](https://img.shields.io/github/repo-size/Jonathan-Rios/nlw-unite-react?color=4DA1CD "Repo size") &nbsp;
+![Languages](https://img.shields.io/github/languages/count/Jonathan-Rios/nlw-unite-react?color=4DA1CD "Languages") &nbsp;
+
 </div>
 
 <br>
@@ -34,6 +34,7 @@
 <br>
 
 ## 💻 Projeto
+
 A aplicação foi desenvolvida seguindo as solicitações do teste técnico da empresa casar.com contidas neste [documento](./CHALLENGE_README.md).
 
 Resumo da aplicação: Aplicação que permite buscar um usuário e seus repositórios na API do GitHub, listá-los e permitir adicionar/remover aos favoritos da aplicação os repositórios que deseja.
@@ -47,13 +48,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind](https://tailwindcss.com/)
 
-
-
 ## 🔗 Link do projeto
+
 Se quiser ver o projeto no ar, clique [aqui](https://nlw-unite-react.vercel.app/).
 
-
 ## 🚀 Como executar
+
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
@@ -63,6 +63,7 @@ $ cd nlw-unite-react
 ```
 
 Rode o projeto com os comandos abaixo:
+
 ```bash
 # Instalar as dependências
 $ npm install
@@ -70,6 +71,7 @@ $ npm install
 # Iniciar o projeto
 $ npm run dev
 ```
+
 - Aparecerá no terminal o link de acesso da aplicação, geralmente na porta http://localhost:5173/.
 
 ## 📝 License
@@ -87,19 +89,22 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
   ➜ ng new product-store --skip-tests
     ? Which stylesheet format would you like to use? Sass (SCSS) [ https://sass-lang.com/documentation/syntax#scss ]
     ? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
-  
+
   ➜ ng add @angular/material
-    ? Choose a prebuilt theme name, or "custom" for a custom theme: [Azure/Blue]      
+    ? Choose a prebuilt theme name, or "custom" for a custom theme: [Azure/Blue]
     ? Set up global Angular Material typography styles? [Yes]
     ? Include the Angular animations module? [Include and enable animations]
 
   # Criando componente com a CLI
   ➜ ng g c shared/components/header
-```   
+
+  ➜ npm i json-server -D
+```
+
 <br />
 
-
 ---
+
 <br />
 
 <a href="https://github.com/Jonathan-Rios">
@@ -109,5 +114,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
 
 💠 NeverStopLearning 💠
 
-[![Linkedin Badge](https://img.shields.io/badge/-Jonathan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathan-rios-sousa-19b3431b6/)](https://www.linkedin.com/in/jonathan-rios-sousa-19b3431b6/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Jonathan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathan-rios-sousa-19b3431b6/)](https://www.linkedin.com/in/jonathan-rios-sousa-19b3431b6/)
 [![Gmail Badge](https://img.shields.io/badge/-jonathan.riosousa@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jonathan.riosousa@gmail.com)](mailto:jonathan.riosousa@gmail.com)
