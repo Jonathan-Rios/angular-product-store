@@ -1,0 +1,12 @@
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 0;
+}
+
+.action-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 0;
+}

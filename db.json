@@ -2,7 +2,19 @@
   "products": [
     {
       "id": "1",
-      "title": "Produto de teste"
+      "title": "Produto de teste 1"
+    },
+    {
+      "id": "2",
+      "title": "Produto de teste 2"
+    },
+    {
+      "id": "3",
+      "title": "Produto de teste 3"
+    },
+    {
+      "id": "4",
+      "title": "Produto de teste 4"
     }
   ]
 }
