@@ -1,19 +1,20 @@
-import { Component, inject } from '@angular/core';
+import { Component, Inject, inject } from '@angular/core';
 import {
-  FormControl,
-  FormGroup,
   ReactiveFormsModule,
+  FormGroup,
+  FormControl,
   Validators,
 } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { ProductsService } from '../../shared/services/products.service';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { ProductsService } from '../../shared/services/products.service';
+import { Product } from '../../shared/interfaces/product.interface';
 
 @Component({
-  selector: 'app-create',
+  selector: 'app-edit',
   standalone: true,
   imports: [
     ReactiveFormsModule,
@@ -22,16 +23,18 @@ import { Router } from '@angular/router';
     MatButtonModule,
     MatSnackBarModule,
   ],
-  templateUrl: './create.component.html',
-  styleUrl: './create.component.scss',
+  templateUrl: './edit.component.html',
+  styleUrl: './edit.component.scss',
 })
-export class CreateComponent {
+export class EditComponent {
   productService = inject(ProductsService);
   matSnackBar = inject(MatSnackBar);
   router = inject(Router);
 
+  product: Product = inject(ActivatedRoute).snapshot.data['product'];
+
   form = new FormGroup({
-    title: new FormControl<string>('', {
+    title: new FormControl<string>(this.product.title, {
       nonNullable: true,
       validators: Validators.required,
     }),
@@ -39,11 +42,11 @@ export class CreateComponent {
 
   onSubmit() {
     this.productService
-      .post({
+      .put(this.product.id, {
         title: this.form.controls.title.value,
       })
       .subscribe(() => {
-        this.matSnackBar.open('Produto criado com sucesso!', 'Ok', {
+        this.matSnackBar.open('Produto editado com sucesso!', 'Ok', {
           duration: 3000,
           horizontalPosition: 'right',
           verticalPosition: 'top',
