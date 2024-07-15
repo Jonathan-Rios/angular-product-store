@@ -1,16 +1,16 @@
 {
   "products": [
     {
-      "id": "6f36",
-      "title": "asd"
+      "title": "Produto exemplo 01",
+      "id": "6f36"
     },
     {
-      "title": "AAAA BBB",
+      "title": "Produto exemplo 02",
       "id": "edd6"
     },
     {
-      "id": "b2bf",
-      "title": "asd"
+      "title": "Produto exemplo 03",
+      "id": "b2bf"
     }
   ]
 }
