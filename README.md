@@ -98,8 +98,11 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) pa
   # Criando componente com a CLI
   ➜ ng g c shared/components/header
 
-  # Criando service com a CLI
+  # Criando components ou service com a CLI
+  ## ng [g(enerate)] [c(omponent)/s(service)] [folder]
+
   ➜ ng g s shared/services/products
+  ➜ ng g c features/edit
 
   ➜ npm i json-server -D
 ```

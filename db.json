@@ -1,34 +1,6 @@
 {
   "products": [
     {
-      "title": "12",
-      "id": "1"
-    },
-    {
-      "title": "AASDZ",
-      "id": "2"
-    },
-    {
-      "id": "3",
-      "title": "Produto de teste 3"
-    },
-    {
-      "id": "4",
-      "title": "Produto de teste 4"
-    },
-    {
-      "id": "11ba",
-      "title": "teste"
-    },
-    {
-      "id": "3772",
-      "title": "Sapato"
-    },
-    {
-      "id": "a8ce",
-      "title": "aaa"
-    },
-    {
       "id": "6f36",
       "title": "asd"
     },
@@ -39,10 +11,6 @@
     {
       "id": "0959",
       "title": "ZZ2"
-    },
-    {
-      "id": "a2b9",
-      "title": "123z"
     }
   ]
 }

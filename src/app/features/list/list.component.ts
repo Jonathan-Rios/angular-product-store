@@ -4,6 +4,13 @@ import { ProductsService } from '../../shared/services/products.service';
 import { CardComponent } from './components/card/card.component';
 import { Router, RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
+import {
+  MatDialog,
+  MatDialogModule,
+  MatDialogRef,
+} from '@angular/material/dialog';
+import { filter } from 'rxjs';
+import { ConfirmationDialogService } from '../../shared/services/confirmation-dialog.service';
 
 @Component({
   selector: 'app-list',
@@ -16,6 +23,7 @@ export class ListComponent {
   products: Product[] = [];
   productsService = inject(ProductsService);
   router = inject(Router);
+  confirmationDialogService = inject(ConfirmationDialogService);
 
   ngOnInit() {
     this.productsService.getAll().subscribe((products) => {
@@ -25,5 +33,18 @@ export class ListComponent {
 
   onEdit(product: Product) {
     this.router.navigate(['/edit-product/', product.id]);
+  }
+
+  onDelete(product: Product) {
+    this.confirmationDialogService
+      .openDialog()
+      .pipe(filter((answer) => answer === true))
+      .subscribe(() => {
+        this.productsService.delete(product.id).subscribe(() => {
+          this.productsService.getAll().subscribe((products) => {
+            this.products = products;
+          });
+        });
+      });
   }
 }
