@@ -1,13 +1,13 @@
-<h1 align="center">NLW Unite - React</h1>
+<h1 align="center">Angular - Product Store</h1>
 
 <p align="center">
   <img 
-    src="https://img.shields.io/badge/React-18.2.0-blue" 
-    alt="React Ver. 18.2.0"
+    src="https://img.shields.io/badge/Angular-18.0.0-blue" 
+    alt="Angular Ver. 18.0.0"
   />
   <img 
-    src="https://img.shields.io/badge/Typescript-5.2.2-blue"
-    alt="Typescript Ver. 5.2.2" 
+    src="https://img.shields.io/badge/Typescript-5.4.2-blue"
+    alt="Typescript Ver. 5.4.2" 
   />
   <img 
     alt="License"
@@ -17,9 +17,9 @@
 
 <div align="center">
 
-![Last commit](https://img.shields.io/github/last-commit/Jonathan-Rios/nlw-unite-react?color=4DA1CD "Last commit") &nbsp;
-![Repo size](https://img.shields.io/github/repo-size/Jonathan-Rios/nlw-unite-react?color=4DA1CD "Repo size") &nbsp;
-![Languages](https://img.shields.io/github/languages/count/Jonathan-Rios/nlw-unite-react?color=4DA1CD "Languages") &nbsp;
+![Last commit](https://img.shields.io/github/last-commit/Jonathan-Rios/angular-product-store?color=4DA1CD "Last commit") &nbsp;
+![Repo size](https://img.shields.io/github/repo-size/Jonathan-Rios/angular-product-store?color=4DA1CD "Repo size") &nbsp;
+![Languages](https://img.shields.io/github/languages/count/Jonathan-Rios/angular-product-store?color=4DA1CD "Languages") &nbsp;
 
 </div>
 
@@ -35,31 +35,28 @@
 
 ## 💻 Projeto
 
-A aplicação foi desenvolvida seguindo as solicitações do teste técnico da empresa casar.com contidas neste [documento](./CHALLENGE_README.md).
-
-Resumo da aplicação: Aplicação que permite buscar um usuário e seus repositórios na API do GitHub, listá-los e permitir adicionar/remover aos favoritos da aplicação os repositórios que deseja.
+Aplicação para aprender os conceitos básicos do Angular na versão 18.0
 
 ## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [ViteJs](https://vitejs.dev/)
-- [React](https://reactjs.org)
+- [Angular](https://angular.dev/)
+- [Angular Material](https://material.angular.io/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## 🔗 Link do projeto
 
-Se quiser ver o projeto no ar, clique [aqui](https://nlw-unite-react.vercel.app/).
+Se quiser ver o projeto no ar, clique [aqui](https://angular-product-store.vercel.app/).
 
 ## 🚀 Como executar
 
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/Jonathan-Rios/nlw-unite-react.git
+$ git clone https://github.com/Jonathan-Rios/angular-product-store.git
 
-$ cd nlw-unite-react
+$ cd angular-product-store
 ```
 
 Rode o projeto com os comandos abaixo:
@@ -69,7 +66,8 @@ Rode o projeto com os comandos abaixo:
 $ npm install
 
 # Iniciar o projeto
-$ npm run dev
+$ npm start
+$ npm run json-server
 ```
 
 - Aparecerá no terminal o link de acesso da aplicação, geralmente na porta http://localhost:5173/.
